@@ -5,30 +5,27 @@ body {
   padding: 0;
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 .links {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
 }
 
-.links p {
-  margin: 10px 0;
-}
-
-.links a {
-  color: #333;
+.button {
+  background: linear-gradient(to bottom, #a0e248, #59b357);
+  border: none;
+  color: white;
+  text-align: center;
   text-decoration: none;
+  padding: 15px 30px;
   font-size: 18px;
+  border-radius: 25px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
-.links a:hover {
-  color: #007bff;
+.button:hover {
+  background: linear-gradient(to bottom, #59b357, #a0e248);
 }

@@ -5,11 +5,17 @@ body {
   padding: 0;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .links {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
 }
 
 .button {
@@ -18,8 +24,8 @@ body {
   color: white;
   text-align: center;
   text-decoration: none;
-  padding: 15px 30px;
-  font-size: 18px;
+  padding: 20px 40px; /* увеличиваем размер кнопок */
+  font-size: 20px; /* увеличиваем размер текста */
   border-radius: 25px;
   margin: 10px 0;
   cursor: pointer;

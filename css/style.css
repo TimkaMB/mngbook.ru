@@ -1,37 +1,17 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f7f7f7;
-  margin: 0;
-  padding: 0;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .button {
-  background: linear-gradient(to bottom, #a0e248, #59b357);
+  display: inline-block;
+  background-color: #4CAF50;
   border: none;
   color: white;
   text-align: center;
-  text-decoration: none;
-  padding: 20px 40px; /* увеличиваем размер кнопок */
-  font-size: 20px; /* увеличиваем размер текста */
-  border-radius: 25px;
-  margin: 10px 0;
+  font-size: 16px;
+  padding: 10px 24px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
   cursor: pointer;
-  transition: background 0.3s;
+  border-radius: 12px;
 }
 
 .button:hover {
-  background: linear-gradient(to bottom, #59b357, #a0e248);
+  background-color: #45a049;
 }

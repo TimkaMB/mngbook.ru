@@ -12,10 +12,12 @@ body {
   height: 100vh;
 }
 
-.links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+a {
+  text-decoration: none; /* Убираем подчеркивание ссылок */
+}
+
+p {
+  margin: 0; /* Убираем отступы у абзацев */
 }
 
 .button {

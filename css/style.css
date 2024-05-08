@@ -7,6 +7,7 @@ body {
 .title {
     color: rgb(184,128,83);
 }
+
 .button {
   display: inline-block;
   background-color: #4CAF50;
@@ -23,7 +24,7 @@ body {
 }
 
 .button:hover {
-  background-color: #45a049;
+  background-color: rgb(146,192,86);
 }
 
 .bottom {

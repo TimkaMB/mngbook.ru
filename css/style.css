@@ -3,6 +3,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+.title {
+    color: rgb(184,128,83);
+}
 .button {
   display: inline-block;
   background-color: #4CAF50;

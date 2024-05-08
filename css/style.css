@@ -16,3 +16,12 @@
 .button:hover {
   background-color: #45a049;
 }
+
+#bottom-block {
+    position: fixed; /* Зафиксируем позицию элемента */
+    bottom: 0; /* Разместим блок внизу */
+    width: 100%; /* Сделаем блок шириной по всей странице */
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}

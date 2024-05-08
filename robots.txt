@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /css
 Disallow: /images/
 Host: mngbook.ru
+Sitemap: https:///sitemap.xml

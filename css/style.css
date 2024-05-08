@@ -10,7 +10,7 @@ body {
 
 .button {
   display: inline-block;
-  background-color: rgb(174,220,55);
+  background-color: rgb(154,200,35);
   border: none;
   color: white;
   text-align: center;
@@ -24,7 +24,7 @@ body {
 }
 
 .button:hover {
-  background-color: #45a049;
+  background-color: rgb(99, 190, 103);
 }
 
 .bottom {

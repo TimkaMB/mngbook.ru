@@ -23,7 +23,7 @@ body {
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 12px;
-  text-decoration: none; /* Убираем подчеркивание */
+  text-decoration: none;
 }
 
 .button:hover {
@@ -31,9 +31,9 @@ body {
 }
 
 .bottom {
-    position: fixed; /* Зафиксируем позицию элемента */
-    bottom: 0; /* Разместим блок внизу */
-    width: 100%; /* Сделаем блок шириной по всей странице */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #f0f0f0;
     text-align: center;
 }
